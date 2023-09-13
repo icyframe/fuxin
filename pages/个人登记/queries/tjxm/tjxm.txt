@@ -1,0 +1,1 @@
+SELECT tz.ID AS ID,tz.PHY_EXAM_COMBINE_NAME AS xmmc,tz.UNIT_PRICE AS bzjg,tz.REAL_PRICE AS sjjg,0 AS ADD_FLAG,'' AS TID,100 AS zk FROM DICT_PHY_EXAM_COMBINE tz WHERE tz.DELETE_FLAG=0 AND tz.VALID_STATE=1 AND tz.ID NOT IN {{ appsmith.store.regProjectIdList || '(0)' }} and tz.PHY_EXAM_COMBINE_NAME like concat(concat('%','{{Input1.text}}'),'%')

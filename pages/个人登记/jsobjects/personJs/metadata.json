@@ -1,0 +1,32 @@
+{
+  "unpublishedCollection": {
+    "name": "personJs",
+    "pageId": "个人登记",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      },
+      {
+        "name": "myVar3",
+        "value": "{\n  gather: 0,\n  birthday: '',\n  age: '',\n  currentDate: ''\n}"
+      },
+      {
+        "name": "cardTypeLabel",
+        "value": "{\n  0: \"未知\",\n  1: \"身份证\",\n  2: \"体检卡号\",\n  3: \"电子健康卡\",\n  4: \"港澳通行证\",\n  5: \"护照\"\n}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "个人登记_personJs",
+  "deleted": false,
+  "gitSyncId": "64ed98219c7730495daed5e4_64eee6c99c7730495daed7f5"
+}

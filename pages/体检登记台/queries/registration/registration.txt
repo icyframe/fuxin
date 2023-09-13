@@ -1,0 +1,47 @@
+SELECT 
+  (@row_number := @row_number + 1) AS ROWNUM,
+  tr.PHY_EXAM_NO,
+  tr.REG_SERIAL_NO,
+  tr.SOURCE,
+  tr.NAME,
+  tr.FILE_NO,
+  tr.ID_CARD_TYPE,
+  tr.ID_CARD_NO,
+  tr.REG_TYPE AS REG_TYPE_NAME,
+  tr.REG_TYPE,
+  tr.CHARGE_STATUS,
+  tr.GENDER,
+  tr.MARRIAGE,
+  tr.AGE,
+  tr.HIS_CODE,
+  tr.TEAM_ID,
+  tr.PATIENT_ID,
+  tr.VISIT_SERIAL_NO,
+  tr.PHONE_NO,
+  tr.PERSON_AMOUNT,
+  tr.TEAM_AMOUNT,
+  tr.PHY_EXAM_STATUS,
+  tr.REG_TIME,
+  tr.PHY_EXAM_DATE,
+  tr.INS_DATE,
+  tr.GUIDE_SHEET_STATUS,
+  ti.TEAM_NAME,
+  tt.GROUP_NAME,
+  tr.CREATE_USER,
+  tr.INSPEC_DOCTOR,
+  tr.ID,
+  tr.EMP_ID,
+  tr.DEPT_ID,
+  tr.REPORT_TIME,
+  tr.CHARGE_TIME,
+  ct.CARD_TYPE_NAME
+FROM
+  (SELECT @row_number := 0) AS rn,
+  PERSON_REG_INFO tr
+  LEFT JOIN TEAM_GROUP_INFO tt ON tr.GROUP_ID = tt.ID
+  LEFT JOIN PERSON_CARD_TYPE ct ON tr.ID_CARD_TYPE = ct.ID
+  LEFT JOIN TEAM_REG_INFO ti ON ti.ID = tt.TEAM_ID,
+  (SELECT @row_number := 0) AS dummy
+WHERE
+  tr.DELETE_FLAG = 0
+ORDER BY tr.CREATE_TIME DESC;

@@ -1,0 +1,3 @@
+select
+*
+from PERSON_REG_INFO where  ID =  CAST({{ appsmith.URL.queryParams.PE_ID}})

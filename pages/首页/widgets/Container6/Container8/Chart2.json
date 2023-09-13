@@ -1,0 +1,194 @@
+{
+    "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+    "mobileBottomRow": 33,
+    "setAdaptiveYMin": true,
+    "widgetName": "Chart2",
+    "allowScroll": false,
+    "displayName": "Chart",
+    "iconSVG": "/static/media/icon.8eea39845729f7f4bfadeecd3810a09d.svg",
+    "searchTags": [
+        "graph",
+        "visuals",
+        "visualisations"
+    ],
+    "topRow": 0,
+    "bottomRow": 14,
+    "parentRowSpace": 10,
+    "type": "CHART_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 56,
+    "chartData": {"185jflu73u": {
+        "data": "[\n  {\n    \"x\": \"a\",\n    \"y\": 20\n  },\n  {\n    \"x\": \"b\",\n    \"y\": 22\n  },\n  {\n    \"x\": \"c\",\n    \"y\": 32\n  },\n  {\n    \"x\": \"c\",\n    \"y\": 29\n  },\n  {\n    \"x\": \"c\",\n    \"y\": 35\n  },\n  {\n    \"x\": \"c\",\n    \"y\": 32\n  },\n  {\n    \"x\": \"c\",\n    \"y\": 34\n  },\n  {\n    \"x\": \"c\",\n    \"y\": 37\n  },\n  {\n    \"x\": \"c\",\n    \"y\": 30\n  },\n  {\n    \"x\": \"c\",\n    \"y\": 25\n  },\n  {\n    \"x\": \"c\",\n    \"y\": 39\n  }\n]",
+        "seriesName": ""
+    }},
+    "animateLoading": true,
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "parentColumnSpace": 4.0732421875,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 19,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "accentColor"},
+        {"key": "fontFamily"}
+    ],
+    "customFusionChartConfig": {
+        "type": "column2d",
+        "dataSource": {
+            "data": [
+                {
+                    "label": "Product1",
+                    "value": 20000
+                },
+                {
+                    "label": "Product2",
+                    "value": 22000
+                },
+                {
+                    "label": "Product3",
+                    "value": 32000
+                }
+            ],
+            "chart": {
+                "legendIconSides": "4",
+                "canvasPadding": "0",
+                "captionAlignment": "center",
+                "yAxisNameFontSize": "14",
+                "caption": "Sales Report",
+                "labelFontColor": "#716e6e",
+                "chartLeftMargin": "20",
+                "captionFontSize": "24",
+                "chartTopMargin": "10",
+                "theme": "fusion",
+                "legendIconAlpha": "100",
+                "chartBottomMargin": "10",
+                "labelFontSize": "12",
+                "xAxisNameFontColor": "#716e6e",
+                "yAxisNameFontColor": "#716e6e",
+                "captionFontColor": "#231F20",
+                "yAxisValueFontColor": "#716e6e",
+                "captionPadding": "20",
+                "yAxisName": "Revenue($)",
+                "legendIconBgAlpha": "100",
+                "xAxisName": "Product Line",
+                "alignCaptionWithCanvas": 1,
+                "chartRightMargin": "40",
+                "legendPosition": "top",
+                "xAxisNameFontSize": "14",
+                "yAxisValueFontSize": "12"
+            }
+        }
+    },
+    "customEChartConfig": {
+        "yAxis": [{"type": "value"}],
+        "xAxis": [{"type": "category"}],
+        "legend": {
+            "top": 40,
+            "type": "scroll"
+        },
+        "grid": {
+            "top": 100,
+            "left": 15,
+            "bottom": 30,
+            "right": 15,
+            "containLabel": true
+        },
+        "series": [
+            {
+                "stack": "Search Engine",
+                "type": "bar"
+            },
+            {
+                "stack": "Search Engine",
+                "type": "bar"
+            },
+            {
+                "stack": "Search Engine",
+                "type": "bar"
+            }
+        ],
+        "tooltip": {
+            "axisPointer": {"type": "shadow"},
+            "trigger": "axis"
+        },
+        "title": {
+            "left": "center",
+            "text": "Search Engine Usage",
+            "textStyle": {
+                "overflow": "truncate",
+                "width": 200
+            }
+        },
+        "dataset": {"source": [
+            [
+                "Day",
+                "Baidu",
+                "Google",
+                "Bing"
+            ],
+            [
+                "Mon",
+                620,
+                120,
+                60
+            ],
+            [
+                "Tue",
+                732,
+                132,
+                72
+            ],
+            [
+                "Wed",
+                701,
+                101,
+                71
+            ],
+            [
+                "Thu",
+                734,
+                134,
+                74
+            ],
+            [
+                "Fri",
+                1090,
+                290,
+                190
+            ],
+            [
+                "Sat",
+                1130,
+                230,
+                130
+            ],
+            [
+                "Sun",
+                1120,
+                220,
+                110
+            ]
+        ]}
+    },
+    "showDataPointLabel": false,
+    "key": "bxj7ufz2pp",
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "widgetId": "hot8tdgpk8",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "minWidth": 450,
+    "isVisible": true,
+    "version": 1,
+    "parentId": "5jb02pxvf0",
+    "labelOrientation": "auto",
+    "tags": ["Display"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 1,
+    "responsiveBehavior": "fill",
+    "yAxisName": "",
+    "chartName": "",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 32,
+    "xAxisName": "",
+    "chartType": "LINE_CHART"
+}

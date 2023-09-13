@@ -1,0 +1,28 @@
+{
+  "unpublishedCollection": {
+    "name": "tjDetailJs",
+    "pageId": "体检人员信息",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "{\n  0: \"未婚\",\n  1: \"已婚\",\n  2: \"未知\"\n}"
+      },
+      {
+        "name": "myVar2",
+        "value": "{\n  0: \"未缴费\",\n  1: \"已缴费\",\n  2: \"已退费\",\n  3: \"申请退费中\"\n}"
+      },
+      {
+        "name": "myVar3",
+        "value": "{\n  0: \"未检查\",\n  1: \"已检查\",\n  2: \"弃检\",\n  3: \"未保存\"\n}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "体检人员信息_tjDetailJs",
+  "deleted": false,
+  "gitSyncId": "64ed98219c7730495daed5e4_64edccd29c7730495daed79b"
+}
