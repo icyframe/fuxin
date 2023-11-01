@@ -206,6 +206,7 @@
     "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "ozl6tkfo0t",
+    "enableServerSideFiltering": false,
     "minWidth": 450,
     "tableData": "{{tjtc.data}}",
     "label": "Data",

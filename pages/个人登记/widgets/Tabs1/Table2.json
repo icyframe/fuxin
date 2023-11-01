@@ -76,6 +76,7 @@
     "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "iks8o7gsqr",
+    "enableServerSideFiltering": false,
     "minWidth": 450,
     "tableData": "{{tjxm.data}}",
     "label": "Data",

@@ -206,6 +206,7 @@
     "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "xr6rmz0sa0",
+    "enableServerSideFiltering": false,
     "minWidth": 450,
     "tableData": "{{QueryTable.data}}",
     "label": "Data",

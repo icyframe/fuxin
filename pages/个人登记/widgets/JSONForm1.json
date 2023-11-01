@@ -72,7 +72,7 @@
         {"key": "schema.__root_schema__.children.lxdz.borderRadius"}
     ],
     "showReset": true,
-    "dynamicHeight": "AUTO_HEIGHT",
+    "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
     "autoGenerateForm": true,
     "resetButtonStyles": {
         "boxShadow": "none",
@@ -607,6 +607,7 @@
     "title": "Form",
     "hideCard": false,
     "mobileRightColumn": 13,
+    "shouldScrollContents": true,
     "parentColumnSpace": 15.921875,
     "dynamicTriggerPathList": [],
     "borderWidth": "1",
@@ -626,6 +627,6 @@
     "fixedFooter": true,
     "originalTopRow": 19,
     "mobileLeftColumn": 0,
-    "maxDynamicHeight": 9000,
+    "maxDynamicHeight": 153,
     "minDynamicHeight": 4
 }
