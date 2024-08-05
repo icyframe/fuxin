@@ -1,4 +1,13 @@
 {
+  "appIsExample": false,
+  "appLayout": {
+    "type": "DESKTOP"
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#E3DEFF",
+  "evaluationVersion": 2,
+  "icon": "basketball",
   "pages": [
     {
       "id": "体检登记台",
@@ -17,26 +26,7 @@
       "isDefault": false
     }
   ],
-  "viewMode": false,
-  "appIsExample": false,
-  "unreadCommentThreads": 0,
-  "color": "#E3DEFF",
-  "icon": "basketball",
   "unpublishedAppLayout": {
     "type": "DESKTOP"
-  },
-  "publishedAppLayout": {
-    "type": "DESKTOP"
-  },
-  "unpublishedCustomJSLibs": [
-    {
-      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
-    }
-  ],
-  "publishedCustomJSLibs": [],
-  "evaluationVersion": 2,
-  "applicationVersion": 2,
-  "collapseInvisibleWidgets": true,
-  "isManualUpdate": false,
-  "deleted": false
+  }
 }

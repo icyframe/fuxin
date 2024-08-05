@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "64f0827433a992078d11fb0a_64f083ad7ca4251acb0de802",
+  "id": "首页_JSObject1",
   "unpublishedCollection": {
     "name": "JSObject1",
     "pageId": "首页",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "首页_JSObject1",
-  "deleted": false,
-  "gitSyncId": "64f0827433a992078d11fb0a_64f083ad7ca4251acb0de802"
+    ]
+  }
 }

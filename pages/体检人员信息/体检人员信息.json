@@ -1,88 +1,32 @@
 {
+  "gitSyncId": "64ed98219c7730495daed5e4_64edb8c79c7730495daed6a7",
   "unpublishedPage": {
-    "name": "体检人员信息",
-    "slug": "",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 1830,
-          "containerStyle": "none",
-          "snapRows": 84,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 85,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 860,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "体检人员信息_jcxm",
-              "name": "jcxm",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                " appsmith.URL.queryParams.PE_ID "
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "体检人员信息_jyxm",
-              "name": "jyxm",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                " appsmith.URL.queryParams.PE_ID "
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "体检人员信息_tjxm",
-              "name": "tjxm",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                " appsmith.URL.queryParams.PE_ID "
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "体检人员信息_user_xx",
-              "name": "user_xx",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                " appsmith.URL.queryParams.PE_ID "
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "体检人员信息",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 84,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "64ed98219c7730495daed5e4_64edb8c79c7730495daed6a7"
+    "name": "体检人员信息",
+    "slug": ""
+  }
 }
